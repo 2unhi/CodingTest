@@ -3,14 +3,12 @@ num = N
 count = 0
 
 while (True):
-    first = N // 10
+    first = num // 10
     second = num % 10
-    last = (first + second) % 10
-    num = (second * 10) + last
+    num = (second * 10) + (first + second) % 10
 
     count += 1
 
-    if (num == N):
-        break
+    if (num == N): break
 
 print(count)
