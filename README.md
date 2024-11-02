@@ -1,6 +1,6 @@
 ### 코딩테스트 문제 풀이
 
 ```
-printf("C")
+printf("C");
 print("Python")
 ```
