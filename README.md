@@ -3,4 +3,5 @@
 ```
 printf("C");
 print("Python")
+console.log("javascript");
 ```
